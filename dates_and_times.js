@@ -30,4 +30,4 @@ var subtractMonthsFromDate = function (date, aantalMaanden) {
 
 var peildatumMinDrieMaanden1 = subtractMonthsFromDate(new Date("2018-05-29"), 3); // expected: new Date("2018-02-28")
 var peildatumMinDrieMaanden2 = subtractMonthsFromDate(new Date("2018-01-01"), 3); // expected: new Date("2017-10-01")
-var peildatumMinDrieMaanden3 = subtractMonthsFromDate(new Date("2016-10-31"), 3); // expected: new Date("2016-09-30")
+var peildatumMinDrieMaanden3 = subtractMonthsFromDate(new Date("2016-10-31"), 1); // expected: new Date("2016-09-30")
